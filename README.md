@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/824415368.svg)](https://zenodo.org/doi/10.5281/zenodo.12731599)
+
 # Multilingual Archaeology Benchmark Dataset for Ontology Matching
 
 ## Description
