@@ -59,3 +59,4 @@ See the corresponding section of the [DH benchmark dataset](https://github.com/F
 # Contact information
 Creator: Felix Kraus
 Email (subsitute accordingly): firstname.lastname (at) kit (dot) edu
+License owner: Karlsruhe Institute of Technology (KIT)
