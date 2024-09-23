@@ -57,6 +57,6 @@ See the corresponding section of the [DH benchmark dataset](https://github.com/F
 [2]: [iDAI.world](https://isl.ics.forth.gr/bbt-federated-thesaurus/DAI/en/) (adapted)[](https://vocabs.dariah.eu/defc_thesaurus/en/) [[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en); Creators: Annika Kirscheneder, Camilla Colombi, Elenore Pape, Gabriele Rasbach, Henriette Senst, Lena Vitt, Matthias Block, Nina Dworschak, Reinhard Förtsch, Sabine Thänert]  
 
 # Contact information
-Creator: Felix Kraus
-Email (subsitute accordingly): firstname.lastname (at) kit (dot) edu
-License owner: Karlsruhe Institute of Technology (KIT)
+- Creator: Felix Kraus
+- Email (subsitute accordingly): firstname.lastname (at) kit (dot) edu
+- License owner: Karlsruhe Institute of Technology (KIT)
