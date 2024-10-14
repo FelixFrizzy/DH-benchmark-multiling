@@ -60,3 +60,11 @@ See the corresponding section of the [DH benchmark dataset](https://github.com/F
 - Creator: Felix Kraus
 - Email (subsitute accordingly): firstname.lastname (at) kit (dot) edu
 - License owner: Karlsruhe Institute of Technology (KIT)
+
+# Contact information
+- Creator: Felix Kraus
+- Email (subsitute accordingly): firstname.lastname (at) kit (dot) edu
+- License owner: Karlsruhe Institute of Technology (KIT)
+
+# Acknowledgement
+Development of this software product was funded by the research program “Engineering Digital Futures” of the Helmholtz Association of German Research Centers.
