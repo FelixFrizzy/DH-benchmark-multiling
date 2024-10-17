@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_718afccb"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtwvbHs6SmP8"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.91458263473522</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_865ef1cd"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtHIjtOg1P75"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8945182063187321</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_f0feb0f6"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtjMFrjr1utW"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.909439404386287</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_d321ff61"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtVgXu5JJGUg"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8808840455829431</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_bd17b2bc"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtdreB1dmB38"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9004394746615066</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_9a095544"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtpZHoU1vm9o"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9411666245962873</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_cfcfb0b5"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrthcbe2XySTb"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8745695000837101</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_ffe5cd10"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtHIT0hSPFsR"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8360893684033593</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_a8c479ca"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtWouRhFysgx"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9247391741305386</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_646ccae3"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt36pke8yWxW"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.884469948194867</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_ee5484a4"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtxKnfzXYMxK"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8699880391605332</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_ac567df8"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtF9P4mbuyGk"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8799154551885295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_2f0a0fae"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtQY3u48DUrQ"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8896235089172085</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_a4dc9f9f"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt9PJh9aTXv4"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8873030475030724</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_3a1d164e"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtpZqoqAbrdg"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8252533280969918</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_a1f36e1b"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt7UXeYrS8Nb"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9804519719094539</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_e6bcd9f7"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt7XYoF5la6b"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9062986596275133</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_a0fc8fbd"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtSp0Bn88zX1"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8683505300529781</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_3b1f6de4"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtKZYwYOkWlK"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8561157587783215</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_906fb5db"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtJUwAaZ7Nz9"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8855623978776582</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_a5f9dcec"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/crtdVpqD9Y6ym"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8609373151610509</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_ca373f42"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtfOjLfceAZ0"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8516053208676869</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_4c350519"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtAYfItWHoOV"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.824488017803474</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_4cfbc639"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtx4sFxmENjb"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9061942694117225</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_d9be43fc"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtVhTRix41ic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8149389451325109</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_58617441"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtrMvNrtSOHs"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8627463173008071</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_8b38cf01"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtQpKQcDolxc"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8567177273178818</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_b7f77df4"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtGYzRry8HxI"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8427189359320628</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_cfaa9f0d"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtpbgzj4c0da"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.886747589558731</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_61e75561"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtXOuO8FKGbe"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9465526186426223</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_db9fa215"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtQS6tuoSfSW"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9262531186071655</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_b5294159"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtXGgQa70ZVU"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8324479991589198</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_efed8725"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt9gfvI45Kcj"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9455911778597053</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_0281891b"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtkeLpJpVN4t"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8914687146446366</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_c4fde00c"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt3S7lIydczN"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.870404023415379</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_a32880ef"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtgWbicZTgZe"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8419216656770744</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_f09b41b4"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt0Krn6QJlhU"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9999999991873182</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_d08fcc11"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtNU9yWjKe6U"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8778026858213055</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_ca4273ea"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtD19Y1kxWR4"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.984812968126389</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_ecfb8fbd"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt3FTqaIdbpb"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8903115703614682</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_0e9ac12e"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtVmQTWhdSkJ"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8183323788503538</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_cb4df6e3"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtp5Wcpmp9I3"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8834698066713614</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_fd86e2ca"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrteJiI6BxaFN"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8567755872142555</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_b5fdb08d"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtxdz8S5BdEg"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9004031835269102</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_5afbe881"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtKei7jxhn32"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8608379765669325</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_e73f7616"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtAqKgmvERHQ"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9221643275631363</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_ed1f46d5"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtRIPguI6ugI"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8449789578446171</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_5b640e14"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt9WXX2cWeOQ"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9705284234207175</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_4a2b0815"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrta0rAmU2iDR"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9248635509750628</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_623326f0"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtms2OAv82PY"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9199808412975741</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_af7515a8"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt5MQsnfNDTD"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9461182143438188</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_a32880ef"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt66PQUHwXaw"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8419216656770744</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_14742562"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtfUWF9GVr4q"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8643073273571181</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_e0d9d2ff"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtSu7E2Qh0Xv"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8780683642385727</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_d0eebfc7"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtoeb7huexQ8"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.875055896748102</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_e3be9dc0"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtUia9QuUpdR"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8471014890160149</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_eed928af"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt5ecRHjSZTM"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8662197096461868</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_bf5d4df1"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrt1FD59O4eTz"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9097321643036227</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_148ad757"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrtiaQHMzQVGS"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8354251156201191</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://thesauri.dainst.org/_45577185"/>
+      <entity2 rdf:resource="https://ark.frantiq.fr/ark:/26678/pcrts62Z2hl4ux"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8988479660907475</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
