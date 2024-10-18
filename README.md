@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a benchmark dataset for ontology matching created by Felix Kraus. It is based on an archaeology test case of the [DH benchmark dataset](https://github.com/FelixFrizzy/DH-benchmark), with focus on multilinguality. You can find all the general information about the dataset that you need for using it at the [OAEI](https://oaei.ontologymatching.org/) in this repository.
+This is a benchmark dataset for ontology matching created by Felix Kraus (KIT). It is based on an archaeology test case of the [DH benchmark dataset](https://github.com/FelixFrizzy/DH-benchmark), with focus on multilinguality. You can find all the general information about the dataset that you need for using it at the [OAEI](https://oaei.ontologymatching.org/) in this repository.
 For further information on the [OAEI 2024](http://oaei.ontologymatching.org/2024/) see also [here](https://felixfrizzy.github.io/DH-benchmark-multiling/).   
 This benchmark dataset facilitaes the development of ontology matching systems for datasets in different languages in the Digital Humanities on the example of archaeology. The systems face special obstacles which are at least partly addressed in this dataset:
 
