@@ -1,19 +1,22 @@
-This folder contains the results of the multilingual [archaeology track](https://oaei.ontologymatching.org/2024/archaeology/index.html) of the [OAEI 2024 campaign](https://oaei.ontologymatching.org/2024/). 
+# Results of the [Archaeology multilingual track](https://oaei.ontologymatching.org/2024/digitalhumanities/index.html) of the [OAEI 2024 campaign](https://oaei.ontologymatching.org/2024/)
+OAEI 2024 is the first year for the archaeology track to participate. For information about the goal of this track and information about the test cases, refer to the [Readme](https://github.com/FelixFrizzy/DH-benchmark-multiling/blob/main/README.md).
+
+# Evaluation Modalities
+We used precision, recall and F1-score for evaluation and only evaluated equivalence relationships. If matching systems resulted in either errors or zero identified matches, we considered them as failed. Adhering the [OAEI rules](https://oaei.ontologymatching.org/doc/oaei-rules.2.html), we didn't change any settings for the matching systems. 
 
 ## Resources
 - VM with 8 x 2.4 GHz cores, 16GB RAM
 
-## Steps to reproduce results
+## Steps to Reproduce the Results
 - Download the evaluation client [evaluation client](https://nightly.link/dwslab/melt/workflows/java_client_upload/master/evaluation-client.zip) as explained in the [documentation](https://dwslab.github.io/melt/matcher-evaluation/client).
 - Download the 2024 (or any other MELT compatible) matchers and put them in the same folder.
 - Run the command
 ```bash
 java -jar matching-eval-client-latest.jar --systems logmap-melt-oaei-2021-web-latest.tar.gz logmap-bio-melt-oaei-2021-web-latest.tar.gz logmap-kg-melt-oaei-2021-web-latest.tar.gz logmap-lite-melt-oaei-2021-web-latest.tar.gz matcha.tar.gz "ALIN - Jomar Silva.zip" MDMapper-seals.zip https://match.tomato.irit.fr/match --track http://oaei.webdatacommons.org/tdrs/ archaeology 2024all --results oaei2024_arch
 ```
+
+# Evaluation Results
 The raw results can be found in the `raw-results_archtrack_2024` folder in this repo.
-
-# Results
-
 
 ## Overview over the matching systems
 - Running successfully
@@ -30,7 +33,20 @@ The raw results can be found in the `raw-results_archtrack_2024` folder in this 
     - OntoMatch (standalone, not possible to run with MELT / SEALS)
 
 ## Recall, Precision, F1-Score
-(table)
+
+| Test Case               | LogMap   | LogMap Bio | LogMap KG | Matcha   | LogMap   | LogMap Bio | LogMap KG | Matcha   | LogMap   | LogMap Bio | LogMap KG | Matcha   |
+| ----------------------- | ------   | ---------- | --------- | ------   | ------   | ---------- | --------- | ------   | ------   | ---------- | --------- | ------   |
+| idai-pactols_de-de      | 0.85     | 0.91       | 0.91      | **1.00** | **0.65** | 0.59       | 0.59      | 0.12     | **0.73** | 0.71       | 0.71      | 0.21     |
+| idai-pactols_de-en      | 0.25     | **0.33**   | **0.33**  | 0.02     | **0.06** | **0.06**   | **0.06**  | **0.06** | **0.10** | **0.10**   | **0.10**  | 0.03     |
+| idai-pactols_de-fr      | **0.40** | **0.40**   | **0.40**  | 0.04     | 0.12     | 0.12       | 0.12      | **0.18** | **0.18** | **0.18**   | **0.18**  | 0.07     |
+| idai-pactols_de-it      | **0.50** | **0.50**   | **0.50**  | 0.00     | **0.12** | **0.12**   | **0.12**  | 0.00     | **0.19** | **0.19**   | **0.19**  | 0.00     |
+| idai-pactols_en-en      | 0.27     | 0.60       | 0.60      | **0.75** | **0.67** | 0.50       | 0.50      | 0.50     | 0.38     | 0.55       | 0.55      | **0.60** |
+| idai-pactols_en-fr      | 0.13     | **1.00**   | **1.00**  | 0.03     | 0.17     | 0.17       | 0.17      | **0.33** | 0.14     | **0.29**   | **0.29**  | 0.05     |
+| idai-pactols_en-it      | 0.50     | **1.00**   | **1.00**  | 0.00     | **0.17** | **0.17**   |  **0.17** | 0.00     | 0.25     | **0.29**   | **0.29**  | 0.00     |
+| idai-pactols_fr-fr      | 0.09     | 0.13       | 0.13      | **0.25** | **0.25** | **0.25**   | **0.25**  | **0.25** | 0.13     | 0.17       | 0.17      | **0.25** |
+| idai-pactols_fr-it      | \-       | \-         | \-        | \-       | \-       | \-         | \-        | \-       | \-       | \-         | \-        | \-       |
+| idai-pactols_it-it      | 0.17     | 0.10       | 0.10      | **0.30** | **0.75** | 0.25       | 0.25      | **0.75** | 0.27     | 0.14       | 0.14      | **0.43** |
+| Average over all tracks | 0.35     | **0.55**   | **0.55**  | 0.27     | **0.33** | 0.25       | 0.25      | 0.24     | 0.26     | **0.29**   | **0.29**  | 0.18     |
 
 
 ## Runtimes
