@@ -34,8 +34,9 @@ The raw results can be found in the `raw-results_archtrack_2024` folder in this 
 
 ## Recall, Precision, F1-Score
 
-| Test Case               | LogMap   | LogMap Bio | LogMap KG | Matcha   | LogMap   | LogMap Bio | LogMap KG | Matcha   | LogMap   | LogMap Bio | LogMap KG | Matcha   |
-| ----------------------- | ------   | ---------- | --------- | ------   | ------   | ---------- | --------- | ------   | ------   | ---------- | --------- | ------   |
+| Test Case               |Precision |            |           |          |Recall    |            |           |          |F1-Score  |            |           |          |
+| ----------------------- | -------- | ---------- | --------- | -------- | -------- | ---------- | --------- | -------- | -------- | ---------- | --------- | -------- |
+|                         | LogMap   | LogMap Bio | LogMap KG | Matcha   | LogMap   | LogMap Bio | LogMap KG | Matcha   | LogMap   | LogMap Bio | LogMap KG | Matcha   |
 | idai-pactols_de-de      | 0.85     | 0.91       | 0.91      | **1.00** | **0.65** | 0.59       | 0.59      | 0.12     | **0.73** | 0.71       | 0.71      | 0.21     |
 | idai-pactols_de-en      | 0.25     | **0.33**   | **0.33**  | 0.02     | **0.06** | **0.06**   | **0.06**  | **0.06** | **0.10** | **0.10**   | **0.10**  | 0.03     |
 | idai-pactols_de-fr      | **0.40** | **0.40**   | **0.40**  | 0.04     | 0.12     | 0.12       | 0.12      | **0.18** | **0.18** | **0.18**   | **0.18**  | 0.07     |
@@ -49,8 +50,32 @@ The raw results can be found in the `raw-results_archtrack_2024` folder in this 
 | Average over all tracks | 0.35     | **0.55**   | **0.55**  | 0.27     | **0.33** | 0.25       | 0.25      | 0.24     | 0.26     | **0.29**   | **0.29**  | 0.18     |
 
 
+## Average (mean) over matchers
+
+| Test Case               | Precision (average) | Recall (average) | F1-score (average) |
+|-------------------------|---------------------|------------------|--------------------|
+| idai-pactols_de-de      | 0.92                | 0.49             | 0.59               |
+| idai-pactols_de-en      | 0.23                | 0.06             | 0.08               |
+| idai-pactols_de-fr      | 0.31                | 0.13             | 0.15               |
+| idai-pactols_de-it      | 0.38                | 0.09             | 0.14               |
+| idai-pactols_en-en      | 0.55                | 0.54             | 0.52               |
+| idai-pactols_en-fr      | 0.54                | 0.21             | 0.19               |
+| idai-pactols_en-it      | 0.63                | 0.13             | 0.21               |
+| idai-pactols_fr-fr      | 0.15                | 0.25             | 0.18               |
+| idai-pactols_fr-it      |                     |                  | -                  |
+| idai-pactols_it-it      | 0.17                | 0.50             | 0.25               |
+| Average over all tracks | 0.43                | 0.27             | 0.26               |
+
+
 ## Runtimes
-(table)
+| Matchers    | total runtime (hh:mm:ss) |
+|-------------|--------------------------|
+| LogMap      | 00:00:13                 |
+| LogMap Bio  | 00:00:19                 |
+| LogMap KG   | 00:00:12                 |
+| LogMap lite | 00:55:03                 |
+| Matcha      | 02:31:50                 |
+| TOMATO      | 00:00:27                 |
 
 ## Discussion
 When looking at the F1-scores averaged over all matchers, they range from 0.08 to 0.56. Only the language combinations en-en and de-de are on the upper end, while all the others are at or below 0.24. This suggests that most systems struggle when dealing with different languages. The fact that German and English both belong to the West Germanic languages might be advantageous. The romance languages pose a bigger challenge that the systems cannot solve in large parts. 
