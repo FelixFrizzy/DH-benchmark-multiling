@@ -29,7 +29,7 @@ There were two different vocabularies used for the ten different test cases:
     - Major languages: Arabic, English, French, German, Italian
 
 ### Test case combinations
-For all test cases, the source is DEFC and the target is PACTOLS. There exist the following combinations of monolingual ontologies:
+For all test cases, the source is iDAI.world and the target is PACTOLS. There exist the following combinations of monolingual ontologies:
 - de-de
 - de-en
 - de-fr
