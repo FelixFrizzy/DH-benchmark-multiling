@@ -84,7 +84,7 @@ Comparing the matching systems, LogMap Bio, and LogMap KG perform best with an a
 
 The execution times are below half a minute for the whole track, except LogMap lite (55min) and Matcha (2h31min). The latter two only resulted in empty alignments. 
 
-It can clearly seen that handling languages other than English needs to be addressed by matching systems. This is particularly important for making matching systems useful for domains like the Digital Humanities where research objects are in multiple languages and the research itself is frequently conducted in the local langauge of the respective research institution.
+It can clearly be seen that handling languages other than English needs to be addressed by matching systems. This is particularly important for making matching systems useful for domains like the Digital Humanities where research objects are in multiple languages and the research itself is frequently conducted in the local language of the respective research institution.
 
 # Acknowledgement
 The execution of this evaluation was funded by the research program “Engineering Digital Futures” of the Helmholtz Association of German Research Centers.
