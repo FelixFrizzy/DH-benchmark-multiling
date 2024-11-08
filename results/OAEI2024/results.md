@@ -78,9 +78,9 @@ The raw results can be found in the `raw-results_archtrack_2024` folder in this 
 | TOMATO      | 00:00:27                 |
 
 ## Discussion
-When looking at the F1-scores averaged over all matchers, they range from 0.08 to 0.56. Only the language combinations en-en and de-de are on the upper end, while all the others are at or below 0.24. This suggests that most systems struggle when dealing with different languages. The fact that German and English both belong to the West Germanic languages might be advantageous. The romance languages pose a bigger challenge that the systems cannot solve in large parts. 
+When looking at the F1-scores averaged over all matchers, they range from 0.00 (finding no alignments) to 0.59. Only the language combinations en-en and de-de are on the upper end, while all the others are at or below 0.24. It is particularly interesting that for the language combination fr-it, not a single matching system was able to find alignments. The results suggest that most systems struggle when dealing with different languages. The fact that German and English both belong to the West Germanic languages might be advantageous. The romance languages pose a bigger challenge that the systems cannot solve in large parts. 
 
-Comparing the matching systems, LogMap Bio and LogMap KG perform best with an averaged F1-score of 0.29. 
+Comparing the matching systems, LogMap Bio and LogMap KG perform best with an averaged F1-score of 0.26. This is in particular surprising for LogMap Bio, because it was originially developed / tuned for another domain. 
 
 The execution times are below half a minute for the whole track, except LogMap lite (55min) and Matcha (2h31min). The latter two only resulted in empty alignments. 
 
