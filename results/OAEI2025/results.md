@@ -20,34 +20,38 @@ The raw results can be found in the `raw-results_archtrack_2025` folder in this 
 
 ## Overview over the matching systems
 - Running successfully
-    - Matcha
+    - Agent-OM (see note below)
     - LogMap Bio
     - LogMap KG
     - Logmap
+    - Matcha
+    - TIM
 - Running without code errors / exceptions, alignments empty
-    - TOMATO
-    - LogMap lite
+    - LSMatch
+    - LSMatch-Multilingual
 - Running with exceptions / error, no alignments received
     - ALIN
     - MDMapper
-    - OntoMatch (standalone, not possible to run with MELT / SEALS)
+
+Note on Agent-OM: The results of Agent-OM were provided by the system authors and could not be verified by executing the system using MELT.
 
 ## Recall, Precision, F1-Score
 
-| Test Case               |Precision |            |           |          |Recall    |            |           |          |F1-Score  |            |           |          |
-| ----------------------- | -------- | ---------- | --------- | -------- | -------- | ---------- | --------- | -------- | -------- | ---------- | --------- | -------- |
-|                         | Agent-OM   | LogMap   | LogMap Bio | LogMap KG | TIM    | Agent OM   | LogMap   | LogMap Bio | LogMap KG | TIM    | LogMap   | LogMap   | LogMap Bio | LogMap KG | TIM   |
-| idai-pactols_de-de      | 0.75	 | 0.85	 | **0.91**	 | **0.91** | 0.00	 | 0.35	 | **0.65**	 | 0.59	 | 0.59	 | 0.00	 | 0.48	 | **0.73**	 | 0.71	 | 0.71	 | 0.00
-| idai-pactols_de-en      | **0.50**	 | 0.25	 | 0.33	 | 0.33 | 0.00	 | **0.29**	 | 0.06	 | 0.06	 | 0.06	 | 0.00	 | **0.37**	 | 0.10	 | 0.10	 | 0.10	 | 0.00
-| idai-pactols_de-fr      | **0.67**	 | 0.40	 | 0.40	 | 0.40 | 0.00	 | **0.12**	 | **0.12**	 | **0.12**	 | **0.12**	 | 0.00	 | **0.20**	 | 0.18	 | 0.18	 | 0.18	 | 0.00
-| idai-pactols_de-it      | 0.33	 | **0.50**	 | **0.50**	 | **0.50** | 0.00	 | 0.06	 | **0.12**	 | **0.12**	 | **0.12**	 | 0.00	 | 0.10	 | **0.19**	 | **0.19**	 | **0.19**	 | 0.00
-| idai-pactols_en-en      | **0.60**	 | 0.27	 | **0.60**	 | **0.60** | 0.00	 | 0.50	 | **0.67**	 | 0.50	 | 0.50	 | 0.00	 | **0.55**	 | 0.38	 | **0.55**	 | **0.55**	 | 0.00
-| idai-pactols_en-fr      | 0.67	 | 0.13	 | **1.00**	 | **1.00** | 0.00	 | **0.33**	 | 0.17	 | 0.17	 | 0.17	 | 0.00	 | **0.44**	 | 0.14	 | 0.29	 | 0.29	 | 0.00
-| idai-pactols_en-it      | 0.33	 | 0.50	 | **1.00**	 | **1.00** | 0.00	 | **0.33**	 | 0.17	 | 0.17	 | 0.17	 | 0.00	 | **0.33**	 | 0.25	 | 0.29	 | 0.29	 | 0.00
-| idai-pactols_fr-fr      | 0.25	 | 0.09	 | 0.13	 | 0.13 | 0.02	 | **0.25**	 | **0.25**	 | **0.25**	 | **0.25**	 | **0.25**	 | **0.25**	 | 0.13	 | 0.17	 | 0.17	 | 0.03
-| idai-pactols_fr-it      | **0.20**	 | 0.00	 | 0.00	 | 0.00 | 0.00	 | **0.25**	 | 0.00	 | 0.00	 | 0.00	 | 0.00	 | **0.22**	 | 0.00	 | 0.00	 | 0.00	 | 0.00
-| idai-pactols_it-it      | **0.22**	 | 0.17	 | 0.10	 | 0.10 | 0.02	 | 0.50	 | **0.75**	 | 0.25	 | 0.25	 | 0.25	 | **0.31**	 | 0.27	 | 0.14	 | 0.14	 | 0.04
-| Average over all tracks | 0.45	 | 0.31	 | **0.50**	 | **0.50** | 0.00	 | **0.30**	 | 0.29	 | 0.22	 | 0.22	 | 0.05	 | **0.33**	 | 0.24	 | 0.26	 | 0.26	 | 0.01
+| Test Case               |Precision |           |            |           |            |Recall    |            |           |            |F1-Score    |            |           |          |          |            |           |            |       |
+| ----------------------- | -------- | --------- | ---------- | --------- | ---------- | -------- | ---------- | --------- | ---------- | ---------- | ---------- | --------- | -------- | -------- | ---------- | --------- | ---------- | ----- |
+|                         | Agent-OM | LogMap    | LogMap Bio | LogMap KG | Matcha     | TIM      | Agent OM   | LogMap    | LogMap Bio | LogMap KG  | Matcha     | TIM       | AgentOM  | LogMap   | LogMap Bio | LogMap KG | Matcha     | TIM   |
+| idai-pactols_de-de      | 0.75     | 0.85      | 0.91       | 0.91      | **1.00**   | 0.00     | 0.35       | **0.65**  | 0.59       | 0.59       | 0.12       | 0.00      | 0.48     | **0.73** | 0.71       | 0.71      | 0.21       | 0.00  |
+| idai-pactols_de-en      | **0.50** | 0.25      | 0.33       | 0.33      | 0.17       | 0.00     | **0.29**   | 0.06      | 0.06       | 0.06       | 0.06       | 0.00      | **0.37** | 0.10     | 0.10       | 0.10      | 0.09       | 0.00  |
+| idai-pactols_de-fr      | **0.67** | 0.40      | 0.40       | 0.40      | 0.33       | 0.00     | **0.12**   | **0.12**  | **0.12**   | **0.12**   | **0.12**   | 0.00      | **0.20** | 0.18     | 0.18       | 0.18      | 0.17       | 0.00  |
+| idai-pactols_de-it      | 0.33     | **0.50**  | **0.50**   | **0.50**  | 0.40       | 0.00     | 0.06       | **0.12**  | **0.12**   | **0.12**   | **0.12**   | 0.00      | 0.10     | **0.19** | **0.19**   | **0.19**  | 0.18       | 0.00  |
+| idai-pactols_en-en      | 0.60     | 0.27      | 0.60       | 0.60      | **0.75**   | 0.00     | 0.50       | **0.67**  | 0.50       | 0.50       | 0.50       | 0.00      | 0.55     | 0.38     | 0.55       | 0.55      | **0.60**   | 0.00  |
+| idai-pactols_en-fr      | 0.67     | 0.13      | **1.00**   | **1.00**  | 0.33       | 0.00     | **0.33**   | 0.17      | 0.17       | 0.17       | 0.17       | 0.00      | **0.44** | 0.14     | 0.29       | 0.29      | 0.22       | 0.00  |
+| idai-pactols_en-it      | 0.33     | 0.50      | **1.00**   | **1.00**  | 0.50       | 0.00     | **0.33**   | 0.17      | 0.17       | 0.17       | 0.17       | 0.00      | **0.33** | 0.25     | 0.29       | 0.29      | 0.25       | 0.00  |
+| idai-pactols_fr-fr      | **0.25** | 0.09      | 0.13       | 0.13      | **0.25**   | 0.02     | **0.25**   | **0.25**  | **0.25**   | **0.25**   | **0.25**   | **0.25**  | **0.25** | 0.13     | 0.17       | 0.17      | **0.25**   | 0.03  |
+| idai-pactols_fr-it      | **0.20** | 0.00      | 0.00       | 0.00      | 0.00       | 0.00     | **0.25**   | 0.00      | 0.00       | 0.00       | 0.00       | 0.00      | **0.22** | 0.00     | 0.00       | 0.00      | 0.00       | 0.00  |
+| idai-pactols_it-it      | 0.22     | 0.17      | 0.10       | 0.10      | **0.30**   | 0.02     | 0.50       | **0.75**  | 0.25       | 0.25       | **0.75**   | 0.25      | 0.31     | 0.27     | 0.14       | 0.14      | **0.43**   | 0.04  |
+| Average over all tracks | 0.45     | 0.31      | **0.50**   | **0.50**  | 0.40       | 0.00     | **0.30**   | 0.29      | 0.22       | 0.22       | 0.23       | 0.05      | **0.33** | 0.24     | 0.26       | 0.26      | 0.24       | 0.01  |
+
 
 
 
@@ -55,17 +59,18 @@ The raw results can be found in the `raw-results_archtrack_2025` folder in this 
 
 | Test Case               | Precision (average) | Recall (average) | F1-score (average) |
 |-------------------------|---------------------|------------------|--------------------|
-| idai-pactols_de-de      | 0.68                | 0.43             | 0.53               |
-| idai-pactols_de-en      | 0.28                | 0.09             | 0.13               |
-| idai-pactols_de-fr      | 0.37                | 0.09             | 0.15               |
-| idai-pactols_de-it      | 0.37                | 0.08             | 0.13               |
-| idai-pactols_en-en      | 0.41                | 0.43             | 0.40               |
-| idai-pactols_en-fr      | 0.56                | 0.17             | 0.23               |
-| idai-pactols_en-it      | 0.57                | 0.17             | 0.23               |
-| idai-pactols_fr-fr      | 0.12                | 0.25             | 0.15               |
-| idai-pactols_fr-it      | 0.04                | 0.05             | 0.04               |
-| idai-pactols_it-it      | 0.12                | 0.40             | 0.18               |
-| Average over all tracks | 0.35                | 0.22             | 0.22               |
+| idai-pactols_de-de      | 0.74                |             0.38 |               0.47 |
+| idai-pactols_de-en      | 0.26                |             0.09 |               0.13 |
+| idai-pactols_de-fr      | 0.37                |             0.10 |               0.15 |
+| idai-pactols_de-it      | 0.37                |             0.09 |               0.14 |
+| idai-pactols_en-en      | 0.47                |             0.45 |               0.44 |
+| idai-pactols_en-fr      | 0.52                |             0.17 |               0.23 |
+| idai-pactols_en-it      | 0.56                |             0.17 |               0.24 |
+| idai-pactols_fr-fr      | 0.15                |             0.25 |               0.17 |
+| idai-pactols_fr-it      | 0.03                |             0.04 |               0.04 |
+| idai-pactols_it-it      | 0.15                |             0.46 |               0.22 |
+| Average over all tracks | 0.33                |             0.20 |               0.21 |
+
 
 
 ## Runtimes
@@ -78,14 +83,15 @@ The raw results can be found in the `raw-results_archtrack_2025` folder in this 
 | LogMap lite          | 01:02:30                 |
 | LSMatch              | 00:00:22                 |
 | LSMatch Multilingual | 00:00:23                 |
+| Matcha               | 00:10:42                 |
 | TIM                  | 00:00:10                 |
 
 ## Discussion
-When looking at the F1-scores averaged over all matchers, they range from 0.00 (finding no alignments) to 0.50. Only the language combinations en-en and de-de are on the upper end, while all the others are at or below 0.23. Compared to last year, a single system, Agent-OM, now was finding alignments for the language combination fr-it which is a significant improvement. 
+When looking at the F1-scores averaged over all matchers, they range from 0.04 to 0.47. Only the language combinations en-en and de-de are on the upper end, while all the others are at or below 0.24. Compared to last year, one system, Agent-OM, now finds alignments for the language combination fr-it which is a significant improvement. 
 
-Comparing the matching systems, Agent-OM performs best with an averaged F1-score of 0.33, closely followed by the LogMap family. TIM failed to produce any alingments for almost all test cases.
+Comparing the matching systems, Agent-OM performs best with an averaged F1-score of 0.33, closely followed by the LogMap family and Matcha. TIM failed to produce any alingments for almost all test cases.
 
-The execution times are below half a minute for the whole track, except LogMap lite, which returned only empty alignments. 
+The execution times are below half a minute for the whole track, except Matcha and LogMap lite, with the latter returning only empty alignments. 
 
 It can clearly be seen that handling languages other than English needs to be addressed by matching systems. This is particularly important for making matching systems useful for domains like the Digital Humanities where research objects are in multiple languages and the research itself is frequently conducted in the local language of the respective research institution.
 
