@@ -89,7 +89,7 @@ Note on Agent-OM: The results of Agent-OM were provided by the system authors an
 ## Discussion
 When looking at the F1-scores averaged over all matchers, they range from 0.04 to 0.47. Only the language combinations en-en and de-de are on the upper end, while all the others are at or below 0.24. Compared to last year, one system, Agent-OM, now finds alignments for the language combination fr-it which is a significant improvement. 
 
-Comparing the matching systems, Agent-OM performs best with an averaged F1-score of 0.33, closely followed by the LogMap family and Matcha. TIM failed to produce any alingments for almost all test cases.
+Comparing the matching systems, Agent-OM performs best with an averaged F1-score of 0.33, closely followed by the LogMap family and Matcha. TIM failed to produce any alignments for almost all test cases.
 
 The execution times are below half a minute for the whole track, except Matcha and LogMap lite, with the latter returning only empty alignments. 
 
