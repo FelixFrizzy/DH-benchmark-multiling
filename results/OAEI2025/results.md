@@ -37,9 +37,9 @@ Note on Agent-OM: The results of Agent-OM were provided by the system authors an
 
 ## Recall, Precision, F1-Score
 
-| Test Case               |Precision |           |            |           |            |Recall    |            |           |            |F1-Score    |            |           |          |          |            |           |            |       |
+| Test Case               |Precision |           |            |           |            |           |  Recall   |           |            |            |            |           | F1-Score |          |            |           |            |       |
 | ----------------------- | -------- | --------- | ---------- | --------- | ---------- | -------- | ---------- | --------- | ---------- | ---------- | ---------- | --------- | -------- | -------- | ---------- | --------- | ---------- | ----- |
-|                         | Agent-OM | LogMap    | LogMap Bio | LogMap KG | Matcha     | TIM      | Agent-OM   | LogMap    | LogMap Bio | LogMap KG  | Matcha     | TIM       | Agent-OM  | LogMap   | LogMap Bio | LogMap KG | Matcha     | TIM   |
+|                         | Agent-OM | LogMap    | LogMap Bio | LogMap KG | Matcha     | TIM      | Agent-OM   | LogMap    | LogMap Bio | LogMap KG  | Matcha     | TIM       | Agent-OM | LogMap   | LogMap Bio | LogMap KG | Matcha     | TIM   |
 | idai-pactols_de-de      | 0.75     | 0.85      | 0.91       | 0.91      | **1.00**   | 0.00     | 0.35       | **0.65**  | 0.59       | 0.59       | 0.12       | 0.00      | 0.48     | **0.73** | 0.71       | 0.71      | 0.21       | 0.00  |
 | idai-pactols_de-en      | **0.50** | 0.25      | 0.33       | 0.33      | 0.17       | 0.00     | **0.29**   | 0.06      | 0.06       | 0.06       | 0.06       | 0.00      | **0.37** | 0.10     | 0.10       | 0.10      | 0.09       | 0.00  |
 | idai-pactols_de-fr      | **0.67** | 0.40      | 0.40       | 0.40      | 0.33       | 0.00     | **0.12**   | **0.12**  | **0.12**   | **0.12**   | **0.12**   | 0.00      | **0.20** | 0.18     | 0.18       | 0.18      | 0.17       | 0.00  |
