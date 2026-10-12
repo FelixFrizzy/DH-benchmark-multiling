@@ -103,15 +103,15 @@ The runtimes of Agent-OM are provided by the system developers (about 1 week run
 
 ## Discussion
 
-When looking at the F1-scores averaged over all matchers, they range from 0.02 to 0.33. The language combinations en-en and de-de perform best, while all others remain at or below 0.20. Matcha now finds correct alignments for fr-it, where only Agent-OM was successful last year.
+When looking at the F1-scores averaged over all matchers, they range from 0.01 to 0.36. The language combinations en-en and de-de perform best, while all others remain at or below 0.22. Matcha now finds correct alignments for fr-it, where only Agent-OM was successful last year.
 
-Comparing the matching systems, LogMap KG has the best average F1-score of 0.24, followed by Matcha with 0.23. Both remain close to last year's results. TIM improved from 0.01 to 0.09, but still only finds correct alignments when both vocabularies use the same language. The newcomer SECEA was successful only on de-de and resulted in errors for the other nine test cases, giving an average F1-score of 0.01 when these failures are treated as zero.
+Comparing the matching systems, Agent-OM has the best average F1-score of 0.36 followed by LogMap KG  with 0.24 and Matcha with 0.23. TIM improved from 0.01 to 0.09, but still only finds correct alignments when both vocabularies use the same language. The newcomer SECEA was successful only on de-de and resulted in errors for the other nine test cases, giving an average F1-score of 0.01 when these failures are treated as zero.
 
 On the downside, LogMap and LogMap Bio, which were successful last year, did not find any instance alignments this year. LogMap KG was the only successful LogMap variant.
 
-LogMap KG and TIM need 19 and 10 seconds for the whole track, while Matcha needs 10 minutes and 11 seconds. 
+LogMap KG and TIM need 19 and 10 seconds for the whole track, while Matcha needs 10 minutes and 11 seconds. Agent-OM needs about 1 week for the alignment. Therefore, if cost-efficiency and speed is important, LogMap KG and Matcha are the best option, and if running time and costs are no issue, Agent-OM is the best option.  
 
-Handling different languages remains a problem for matching systems. This is particularly important for domains like the Digital Humanities, where research objects are in multiple languages and research is frequently conducted in the local language of the respective research institution.
+Handling different languages remains a problem for most matching systems. This is particularly important for domains like the Digital Humanities, where research objects are in multiple languages and research is frequently conducted in the local language of the respective research institution.
 
 # Acknowledgement
 The execution of this evaluation was funded by the research program “Engineering Digital Futures” of the Helmholtz Association of German Research Centers.
