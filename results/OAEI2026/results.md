@@ -53,7 +53,7 @@ Note on Agent-OM: The results of Agent-OM were provided by the system authors an
 ## Precision, Recall, F1-Score
 
 | Test Case | Precision |  |  |  |  | Recall |  |  |  |  | F1-Score |  |  |  |  |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 |                    | Agent-OM | LogMap KG | Matcha | SECEA | TIM | Agent-OM | LogMap KG | Matcha | SECEA | TIM | Agent-OM | LogMap KG | Matcha | SECEA | TIM |
 | idai-pactols_de-de | 0.88 | 0.83 | **1.00** | 0.08 | 0.50 | 0.41 | **0.59** | 0.12 | 0.12 | 0.12 | 0.56 | **0.69** | 0.21 | 0.10 | 0.19 |
 | idai-pactols_de-en | **0.67** | 0.25 | 0.11 | 0.00* | 0.00 | **0.35** | 0.06 | 0.24 | 0.00* | 0.00 | **0.46** | 0.10 | 0.15 | 0.00* | 0.00 |
