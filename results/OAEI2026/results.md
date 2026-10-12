@@ -50,23 +50,22 @@ The raw results can be found in the `raw-results_archtrack_2026` folder in this 
 
 Note on Agent-OM: The results of Agent-OM were provided by the system authors and could not be verified by executing the system using MELT.
 
-## Recall, Precision, F1-Score
 ## Precision, Recall, F1-Score
 
-| Test Case | Precision |  |  |  | Recall |  |  |  | F1-Score |  |  |  |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-|  | LogMap KG | Matcha | SECEA | TIM | LogMap KG | Matcha | SECEA | TIM | LogMap KG | Matcha | SECEA | TIM |
-| idai-pactols_de-de | 0.83 | **1.00** | 0.08 | 0.50 | **0.59** | 0.12 | 0.12 | 0.12 | **0.69** | 0.21 | 0.10 | 0.19 |
-| idai-pactols_de-en | **0.25** | 0.11 | 0.00* | 0.00 | 0.06 | **0.24** | 0.00* | 0.00 | 0.10 | **0.15** | 0.00* | 0.00 |
-| idai-pactols_de-fr | **0.33** | 0.11 | 0.00* | 0.00 | 0.12 | **0.29** | 0.00* | 0.00 | **0.17** | 0.16 | 0.00* | 0.00 |
-| idai-pactols_de-it | **0.40** | 0.10 | 0.00* | 0.00 | 0.12 | **0.24** | 0.00* | 0.00 | **0.18** | 0.14 | 0.00* | 0.00 |
-| idai-pactols_en-en | 0.50 | **0.75** | 0.00* | 0.33 | **0.50** | **0.50** | 0.00* | 0.17 | 0.50 | **0.60** | 0.00* | 0.22 |
-| idai-pactols_en-fr | **0.50** | 0.09 | 0.00* | 0.00 | 0.17 | **0.67** | 0.00* | 0.00 | **0.25** | 0.16 | 0.00* | 0.00 |
-| idai-pactols_en-it | **0.50** | 0.08 | 0.00* | 0.00 | 0.17 | **0.50** | 0.00* | 0.00 | **0.25** | 0.13 | 0.00* | 0.00 |
-| idai-pactols_fr-fr | 0.11 | **0.25** | 0.00* | 0.20 | **0.25** | **0.25** | 0.00* | **0.25** | 0.15 | **0.25** | 0.00* | 0.22 |
-| idai-pactols_fr-it | 0.00 | **0.05** | 0.00* | 0.00 | 0.00 | **0.50** | 0.00* | 0.00 | 0.00 | **0.09** | 0.00* | 0.00 |
-| idai-pactols_it-it | 0.09 | **0.30** | 0.00* | 0.25 | 0.25 | **0.75** | 0.00* | 0.25 | 0.13 | **0.43** | 0.00* | 0.25 |
-| Average over all tracks | **0.35** | 0.28 | 0.01 | 0.13 | 0.22 | **0.40** | 0.01 | 0.08 | **0.24** | 0.23 | 0.01 | 0.09 |
+| Test Case | Precision |  |  |  |  | Recall |  |  |  |  | F1-Score |  |  |  |  |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+|                    | Agent-OM | LogMap KG | Matcha | SECEA | TIM | Agent-OM | LogMap KG | Matcha | SECEA | TIM | Agent-OM | LogMap KG | Matcha | SECEA | TIM |
+| idai-pactols_de-de | 0.88 | 0.83 | **1.00** | 0.08 | 0.50 | 0.41 | **0.59** | 0.12 | 0.12 | 0.12 | 0.56 | **0.69** | 0.21 | 0.10 | 0.19 |
+| idai-pactols_de-en | **0.67** | 0.25 | 0.11 | 0.00* | 0.00 | **0.35** | 0.06 | 0.24 | 0.00* | 0.00 | **0.46** | 0.10 | 0.15 | 0.00* | 0.00 |
+| idai-pactols_de-fr | **0.75** | 0.33 | 0.11 | 0.00* | 0.00 | 0.18 | 0.12 | **0.29** | 0.00* | 0.00 | **0.29** | 0.17 | 0.16 | 0.00* | 0.00 |
+| idai-pactols_de-it | 0.33 | **0.40** | 0.10 | 0.00* | 0.00 | 0.06 | 0.12 | **0.24** | 0.00* | 0.00 | 0.10 | **0.18** | 0.14 | 0.00* | 0.00 |
+| idai-pactols_en-en | 0.60 | 0.50 | **0.75** | 0.00* | 0.33 | **0.50** | **0.50** | **0.50** | 0.00* | 0.17 | 0.55 | 0.50 | **0.60** | 0.00* | 0.22 |
+| idai-pactols_en-fr | **0.50** | **0.50** | 0.09 | 0.00* | 0.00 | 0.33 | 0.17 | **0.67** | 0.00* | 0.00 | **0.40** | 0.25 | 0.16 | 0.00* | 0.00 |
+| idai-pactols_en-it | **0.50** | **0.50** | 0.08 | 0.00* | 0.00 | 0.33 | 0.17 | **0.50** | 0.00* | 0.00 | **0.40** | 0.25 | 0.13 | 0.00* | 0.00 |
+| idai-pactols_fr-fr | **0.25** | 0.11 | **0.25** | 0.00* | 0.20 | **0.25** | **0.25** | **0.25** | 0.00* | **0.25** | **0.25** | 0.15 | **0.25** | 0.00* | 0.22 |
+| idai-pactols_fr-it | **0.33** | 0.00 | 0.05 | 0.00* | 0.00 | 0.25 | 0.00 | **0.50** | 0.00* | 0.00 | **0.29** | 0.00 | 0.09 | 0.00* | 0.00 |
+| idai-pactols_it-it | 0.22 | 0.09 | **0.30** | 0.00* | 0.25 | 0.50 | 0.25 | **0.75** | 0.00* | 0.25 | 0.31 | 0.13 | **0.43** | 0.00* | 0.25 |
+| Average over all tracks | **0.50** | 0.35 | 0.28 | 0.01 | 0.13 | 0.32 | 0.22 | **0.41** | 0.01 | 0.08 | **0.36** | 0.24 | 0.23 | 0.01 | 0.09 |
 
 \* This test case was not successful and is treated as zero when calculating averages. This applies to SECEA on all language combinations except `de-de`.
 
@@ -76,28 +75,31 @@ All scores are displayed to two decimal places. Bold marks the highest displayed
 
 | Test Case | Precision | Recall | F1-Score |
 | --- | ---: | ---: | ---: |
-| idai-pactols_de-de | 0.60 | 0.24 | 0.30 |
-| idai-pactols_de-en | 0.09 | 0.07 | 0.06 |
-| idai-pactols_de-fr | 0.11 | 0.10 | 0.08 |
-| idai-pactols_de-it | 0.13 | 0.09 | 0.08 |
-| idai-pactols_en-en | 0.40 | 0.29 | 0.33 |
-| idai-pactols_en-fr | 0.15 | 0.21 | 0.10 |
-| idai-pactols_en-it | 0.14 | 0.17 | 0.10 |
-| idai-pactols_fr-fr | 0.14 | 0.19 | 0.16 |
-| idai-pactols_fr-it | 0.01 | 0.13 | 0.02 |
-| idai-pactols_it-it | 0.16 | 0.31 | 0.20 |
-| Average over all tracks | 0.19 | 0.18 | 0.14 |
+| idai-pactols_de-de | 0.66 | 0.27 | 0.35 |
+| idai-pactols_de-en | 0.21 | 0.13 | 0.14 |
+| idai-pactols_de-fr | 0.24 | 0.12 | 0.12 |
+| idai-pactols_de-it | 0.17 | 0.08 | 0.08 |
+| idai-pactols_en-en | 0.44 | 0.33 | 0.37 |
+| idai-pactols_en-fr | 0.22 | 0.23 | 0.16 |
+| idai-pactols_en-it | 0.22 | 0.20 | 0.16 |
+| idai-pactols_fr-fr | 0.16 | 0.20 | 0.17 |
+| idai-pactols_fr-it | 0.08 | 0.15 | 0.08 |
+| idai-pactols_it-it | 0.17 | 0.35 | 0.22 |
+| Average over all tracks | 0.25 | 0.21 | 0.19 |
 
 ## Runtimes
 
 | Matcher | Total runtime (hh:mm:ss) |
 | --- | ---: |
+| Agent-OM | see notes below |
 | LogMap KG | 00:00:19 |
 | Matcha | 00:10:11 |
 | SECEA | 00:00:01 |
 | TIM | 00:00:10 |
 
 The runtime for SECEA covers only the successful `de-de` test case. It does not represent a successful run over the full track.
+
+The runtimes of Agent-OM are provided by the system developers (about 1 week runtime for the DH and Arch-multiling track). Refer to their [results](https://github.com/qzc438/ontology-llm/tree/master/campaign/OAEI_2026/author_version/dh) for details. 
 
 ## Discussion
 
